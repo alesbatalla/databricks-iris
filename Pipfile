@@ -1,0 +1,12 @@
+[[source]]
+url = "https://nexus.alm.europe.cloudcenter.corp/repository/pypi-public/simple"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+kedro = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
